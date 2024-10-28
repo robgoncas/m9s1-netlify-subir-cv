@@ -1,0 +1,28 @@
+PARA EL PORTAFOLIO (GITHUB) cuidar:
+- Formato de comentarios
+- Identación
+- Eliminar console.logs (con objetos) SOLO PARA DESARROLLO
+- Agregar un README.md (DIFERENCIADOR CLAVE) - DESCRIPCIÓN DE LO QUE SE VAN A ENCONTRAR EN EL REPO
+- Borrar códigos comentados
+- Agregar un archivo de configuración para el proyecto PACKAGE.JSON INCLUIRLO SIEMPRE
+- .gitignore SIEMPRE
+- NO SUBIR node_modules XXXXXXXXXXXX x_x
+- No dejar contraseñas o informacion privada en comentarios 
+    (se vio en algunas paginas oficiales del gobierno)
+
+DOMINIOS CONOCIDOS
+
+.COM (comercio) $$
+.org (ONG) organizaciones Sin fines de lucro o no gubernamentales $$
+.net Free
+.tk Free
+.DEV (dominio apora developers)
+
+SIN DOMINIO 192.57.56.1/login 
+CON DOMINIO rcgc.tk/login   rcgc (nombre de la web)    .tk (estensión del dominio)
+ 
+NETLIFY
+1- agregamos el módulo serverless-http
+2- agregar middleware para apuntar a la carpeta en donde se va a ver la 
+versión final (lo que se va a subir al hosting) de nuestra lógica. 
+3- Implementar serverless en vez de app.listen
